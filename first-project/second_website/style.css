@@ -1,0 +1,333 @@
+*{
+    background-color: black;
+}
+.subheading-list ul li a{
+    color: white;
+    transition: 0.5s ease all;
+}
+.subheading-list ul li a:hover{
+    color: coral;
+}
+.Header{
+    display: flex ;
+    align-items: normal;
+}
+.subheading-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+}
+.subheading-list ul li{
+    padding-left: 95px;
+}
+.subheading-list ul li a{
+    color: white;
+    text-decoration: none;
+}
+.header-section-right {
+    display: flex
+;
+    align-items: center;
+    width: 50%;
+}
+.header-section {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-button button{
+    color: coral;
+    background-color: transparent;
+    padding: 15px;
+    transition: 0.5s ease all;
+    border: solid coral 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.header-button button:hover{
+    color: white;
+    background-color: coral;
+}
+.header-section-main-heading{
+    color: aliceblue;
+    margin-left: 114px;
+}
+.main-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 83px;
+}
+.body-bio-button{
+    color: white;
+}
+.body-button button {
+    padding: 15px;
+    background-color:transparent ;
+    color: coral;
+    transition: 0.5s ease all;
+    border: solid coral;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.body-button button:hover{
+    color: white;
+    background-color: coral;
+}
+
+.bio {
+    width: 415px;
+}
+.body-button{
+    padding-top: 20px;
+}
+.body-heading h1 span{
+    color: coral;
+}
+.para {
+    width: 386px;
+}
+.page2 {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.para-bio {
+    width: 381px;
+    color: white;
+    margin-top: 10px;
+}
+.para-heading{
+    color: white;
+    font: medium;
+}
+.footer-heading {
+    text-align: center;
+    color: white;
+
+}
+.footer-company-images {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 38px;
+}
+.footer {
+    padding-top: 100px;
+}
+.section3-firstline {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.section3-secondline 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.fourth-description {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.sixth-description {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+.fifth-description {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+.first-description {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+.second-description {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+.third-description {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+.section3-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 34px;
+
+}
+.section3-button button {
+    color: coral;
+    border: solid;
+    transition: 0.5s ease all;
+    padding: 15px 40px 15px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.section3-button button:hover{
+    background-color: coral;
+    color: white;
+    
+}
+.main-heading {
+    margin-left: 56px;
+    color: white;
+}
+.h3 {
+    color: white;
+}
+.third-page {
+    margin-top: 90px;
+}
+.para-image-line {
+    margin-top: -20px;
+}
+.footer-line {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.main-heading-lineimg {
+    padding-left: 90px;
+}
+.client-heading{
+    color: white;
+}
+.clients-image {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-around;
+}
+.client-heading {
+    padding: 60px;
+    text-align: center;
+}
+.fifth-page-heading{
+    color: white;
+}
+
+.fifth-page-button button{
+    color: coral;
+    border: solid;
+    transition: 0.5s ease all;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+
+
+}
+
+.fifth-page-body-first {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fifth-body-input1 input {
+    width: 504px;
+    color: white;
+    border: solid coral;
+    
+}
+.fifth-body-input2 input {
+    width: 504px ;
+    height: 35px;
+    color: white;
+    border: solid coral;
+    
+    
+}
+.fifth-page-body-first{
+    margin: 50px;
+}
+.fifth-page-body-second{
+    text-align: center;
+   
+    
+}
+.fifth-body-input3 input{
+    width: 80%;
+    height: 90px;
+    color: white;
+    border: solid coral;
+}
+.fifth-body-input3 input :placeholder-shown{
+    text-align: start;
+}
+
+
+.fifth-body-input1 input{
+    height: 35px;
+
+}
+.fifth-body-input3{
+    height: 40px;
+}
+.fifth-page-heading-image {
+    padding-left: 130px;
+}
+section {
+    margin-bottom: 70px;
+}
+.fifth-page-button {
+    margin-top: 121px;
+    padding-left: 160px;
+}
+.fifth-page-button :hover{
+    color: white;
+    background-color: coral;
+}
+.last-heading{
+    color: coral;
+    
+}
+.copyright{
+    color: coral;
+        
+}
+.connection{
+    color: coral;
+}
+.last-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+.connect-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-last {
+    background: #d3d3d3; 
+    
+}
+h1 {
+    font-size: 25px;
+}
